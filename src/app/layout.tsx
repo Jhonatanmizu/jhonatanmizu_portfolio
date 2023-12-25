@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Lexend, Righteous } from "next/font/google";
 import "./globals.css";
 // Components
-import { Container, CustomNavbar, Providers } from "./common";
+import { Container, CustomNavbar, Footer, Providers } from "./common";
 
 const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend" });
 
@@ -24,6 +24,7 @@ export default function RootLayout({
         <Providers>
           <CustomNavbar />
           <Container> {children}</Container>
+          <Footer />
         </Providers>
       </body>
     </html>
