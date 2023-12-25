@@ -1,28 +1,20 @@
-import { Button } from "@nextui-org/button";
-// Fonts
-import { righteous, lexend } from "../common/fonts";
+// Components
+import Evaluations from "./components/Evaluations";
+import Experience from "./components/Experience";
+import Main from "./components/Main";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
-const Main = () => {
+const Home = () => {
   return (
-    <main className="p-4 text-secondary   flex justify-between items-center  gap-8 max-lg:flex-col">
-      <section className="flex flex-col gap-8">
-        <h1 className={`text-4xl  ${righteous.variable}`}>
-          Software Developer and UI/UX DESIGNER.
-        </h1>
-        <p className={`text-xl ${lexend.variable}`}>
-          Lorem ipsum dolor sit amet consectetur. Lobortis lacus viverra
-          facilisis molestie. Rhoncus placerat cras dolor vel suspendisse odio
-          sit tempor donec.
-        </p>
-        <p className={`text-xl ${lexend.variable}`}>
-          Lorem ipsum dolor sit amet consectetur. Lobortis lacus viverra
-          facilisis molestie. Rhoncus placerat cras dolor vel suspendisse odio
-          sit tempor donec.
-        </p>
-      </section>
-      <Button className="h-64 w-64 rounded-full">Click me</Button>
-    </main>
+    <>
+      <Main />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Evaluations />
+    </>
   );
 };
 
-export default Main;
+export default Home;

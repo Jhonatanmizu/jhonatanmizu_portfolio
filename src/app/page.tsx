@@ -1,7 +1,7 @@
-import Main from "./Home";
+import Home from "./Home";
 
-const Home = () => {
-  return <Main />;
+const HomePage = () => {
+  return <Home />;
 };
 
-export default Home;
+export default HomePage;
