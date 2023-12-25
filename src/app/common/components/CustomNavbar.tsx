@@ -31,6 +31,7 @@ const NavbarComponent = () => {
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
+      maxWidth="xl"
       className="bg-secondary text-primary"
     >
       <NavbarContent>
