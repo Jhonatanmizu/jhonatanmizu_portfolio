@@ -1,10 +1,11 @@
+// Components
 import { Button } from "@nextui-org/button";
 // Fonts
 import { righteous, lexend } from "../../common/fonts";
 
 const Main = () => {
   return (
-    <main className="text-secondary p-4 flex justify-between items-center  gap-8 max-lg:flex-col">
+    <main className="text-secondary max-md:p-4 pt-8 grid grid-cols-2  justify-items-center justify-between items-center mb-16  gap-8 max-md:flex  max-md:flex-col">
       <section className="flex flex-col gap-8">
         <h1 className={`text-4xl  ${righteous.variable}`}>
           Software Developer and UI/UX DESIGNER.

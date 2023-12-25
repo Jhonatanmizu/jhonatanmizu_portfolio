@@ -3,7 +3,7 @@ import { righteous } from "@/app/common/fonts";
 
 const Skills = () => {
   return (
-    <section className="bg-secondary text-primary p-4 rounded-2xl mb-4 flex flex-col gap-8">
+    <section className="bg-secondary text-primary p-4 rounded-2xl mb-16 flex flex-col gap-8">
       <div className="flex flex-col gap-8">
         <h2 className={`text-4xl  ${righteous.variable}`}>Design</h2>
         <p className="text-xl">
